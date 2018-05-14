@@ -3,12 +3,6 @@
 
 [![TeamCity CodeBetter](https://img.shields.io/teamcity/codebetter/bt428.svg)]() [![npm](https://img.shields.io/npm/dw/localeval.svg)]() [![npm](https://img.shields.io/npm/v/npm.svg)]() [![Chrome Web Store](https://img.shields.io/chrome-web-store/stars/nimelepbpejjlbmoobocpfnjhihnpked.svg)]()[![Sourcegraph for Repo Reference Count](https://img.shields.io/sourcegraph/rrc//github.com/gorilla/mux.svg)]()[![GitHub watchers](https://img.shields.io/github/watchers/badges/shields.svg?style=social&label=Watch)]()
 
-**[立即体验(国内)](http://herozhou.coding.me/vue-framework-wz/#/dashboard)**
-
-**[online-website](https://herozhou.github.io/vue-framework-wz/)**
-
-**[Englist Document](https://github.com/herozhou/vue-framework-wz/wiki/English-Document)**
-
 **本项目是后台管理框架，集成了权限管理、登录功能、UI组件、七牛上传等功能，建议直接使用。**
 > **注意**：便于前端调试，所以数据请求都是用了mockjs模拟。**在需要请求外部api时请移除mock文件**。
 
@@ -30,66 +24,6 @@
 - `多环境发布`
 - mock数据
 - 炫酷hover特效
-
-
-## Preview 效果图
-
-#### 自适应布局
-
-![自适应布局](https://github.com/herozhou/JAVA-HTML-/blob/master/src/gifs/index.gif)
-
-#### 多TAB效果
-
-![自适应布局](https://github.com/herozhou/JAVA-HTML-/blob/master/src/gifs/tab.gif)
-
-#### 丰富功能表格
-
-![丰富功能表格](https://github.com/herozhou/JAVA-HTML-/blob/master/src/gifs/table.gif)
-
-#### 炫酷登录界面
-
-![炫酷登录界面](https://github.com/herozhou/JAVA-HTML-/blob/master/src/gifs/login.gif)
-
-#### 炫酷图表
-
-![炫酷图表](https://github.com/herozhou/JAVA-HTML-/blob/master/src/gifs/echart.gif)
-
-
-#### 编辑器
-
-![丰富功能表格](https://github.com/herozhou/JAVA-HTML-/blob/master/src/gifs/editor.gif)
-
-
-
-**[更多demo](http://herozhou.coding.me/vue-framework-wz/#/dashboard)**
-
-
-## 系列教程
-
-[《一步步带你做vue后台管理框架》第一课：介绍框架](http://www.cnblogs.com/herozhou/p/7434931.html)
-
-[《一步步带你做vue后台管理框架》第二课：上手使用](http://www.cnblogs.com/herozhou/p/7441702.html)
-
-[《一步步带你做vue后台管理框架》第三课：登录功能](http://www.cnblogs.com/herozhou/p/7469667.html)
-
-## Run 开发 
-```bash
-    # 克隆项目
-    git clone https://github.com/herozhou/vue-framework-wz.git
-
-    # 安装依赖
-    npm install
-    //or # 建议不要用cnpm  安装有各种诡异的bug 可以通过如下操作解决npm速度慢的问题
-    npm install --registry=https://registry.npm.taobao.org
-
-
-    # 本地开发 开启服务
-    npm run dev
-
-
-```
-浏览器访问 http://localhost:9001
-
 ## wz脚手架
 
 > 为了便于大家使用和精简体积 故开发了基于node的命令行构建工具，可安装/删除插件，比如你所开发的项目无需Tinymce插件就
@@ -153,22 +87,6 @@
 └── package.json               // package.json
 
 ```
-
-
-## About me 关于作者
-
-```javascript
-  const herozhou = {
-    blogName  : `herozhou工巧`,
-    blog : `https://www.cnblogs.com/herozhou`,
-    email:`Zhouhero@hotmail.com`,
-    School:`NCHU",
-    Grade:`Junior`
-  }
-  //有任何问题请提issues或直接联系我
- //正在开发一系列帮助新手学习前端的项目，旨在和大家一起成为大前端工程师，有意请follow 我，一起加油💪
-```
-
 
 ## Thanks 感激
 感谢以下的项目,排名不分先后
