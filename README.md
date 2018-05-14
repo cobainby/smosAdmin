@@ -1,9 +1,9 @@
-# vue-framework-wz #
+# vue-smos-admin #
 
 
 [![TeamCity CodeBetter](https://img.shields.io/teamcity/codebetter/bt428.svg)]() [![npm](https://img.shields.io/npm/dw/localeval.svg)]() [![npm](https://img.shields.io/npm/v/npm.svg)]() [![Chrome Web Store](https://img.shields.io/chrome-web-store/stars/nimelepbpejjlbmoobocpfnjhihnpked.svg)]()[![Sourcegraph for Repo Reference Count](https://img.shields.io/sourcegraph/rrc//github.com/gorilla/mux.svg)]()[![GitHub watchers](https://img.shields.io/github/watchers/badges/shields.svg?style=social&label=Watch)]()
 
-**本项目是后台管理框架，集成了权限管理、登录功能、UI组件、七牛上传等功能，建议直接使用。**
+**本项目是参考了vue-admin，集成了权限管理、登录功能、UI组件、后台管理等功能**
 > **注意**：便于前端调试，所以数据请求都是用了mockjs模拟。**在需要请求外部api时请移除mock文件**。
 
 ## Features 特性
@@ -51,9 +51,6 @@
     # 构建生成环境
     npm run build:prod
 ```
-
-
-
 ## FileTree 目录结构
 ```shell
 ├── bin                       // node 命令行构建工具 
