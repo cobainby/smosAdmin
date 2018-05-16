@@ -17,7 +17,6 @@ program
 .description('显示使用帮助')
 .action(function (){
   program.outputHelp();
-
 });
 
 
@@ -67,7 +66,7 @@ program
     .action(function( options){
         var ui_name = typeof options.ui=='string'?options.ui:"";
         var plugin_name = typeof options.plugin=='string'?options.plugin:"";
-         if(ui_name){
+        if(ui_name){
              log(chalk.green('正在安装UI组件',ui_name));
 
               remove('ui',ui_name);
@@ -76,17 +75,15 @@ program
               remove('plugin',plugin_name);
         }else {
              log(chalk.yellow('请输入要删除的UI组件名称或者插件名称'));
-         }
+        }
 
 
-    }).on('--help', function() {
-
-         
+    }).on('--help', function() { 
         log('\n')
         log(chalk.green('Examples 运行方法:'));
         log(chalk.green('    $ wz rm -p Tinymce'));
         log(chalk.green('    $ wz rm -p Markdown'));
-         log(chalk.green('    $ wz rm -p Mockjs'));
+        log(chalk.green('    $ wz rm -p Mockjs'));
         log(chalk.green('    $ wz rm -p Jsontree'));
     });
 
@@ -102,7 +99,6 @@ program
 
 if(process.argv.length<=2){
         program.outputHelp()
-
     log(chalk.yellow('请输入要执行的命令'));
 
 } 
