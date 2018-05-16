@@ -14,8 +14,6 @@ const userMap = {
     introduction: '我是编辑',
     name: 'Normal Editor',
     uid: '002'
-
-
   },
   developer: {
     role: ['develop'],

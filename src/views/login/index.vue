@@ -51,8 +51,8 @@ export default {
     };
     return {
       loginForm: {
-        email: "admin@wz.com",
-        password: ""
+        email: "admin@zs.com",
+        password: "baiyang"
       },
       loginRules: {
         email: [{ required: true, trigger: "blur", validator: validateEmail }],
