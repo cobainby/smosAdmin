@@ -19,7 +19,7 @@ const userMap = {
     role: ['develop'],
     token: 'develop',
     introduction: '我是开发',
-    name: '工程师小王',
+    name: '工程师白杨',
     uid: '003'
   }
 }
