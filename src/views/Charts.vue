@@ -50,7 +50,6 @@ export default {
         title: {
           text: "本年商场顾客男女人数统计",
           x: "4%",
-
           textStyle: {
             color: "#fff",
             fontSize: "22"

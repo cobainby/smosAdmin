@@ -31,8 +31,6 @@ var data = [{
     value: [2, 4, 5, 7, 3, 9, 11]
 }]
 
-
-
 function tooltipFormatter(params) {
     var valuesFormatter = [];
     if (params.componentSubType == 'pie') {
