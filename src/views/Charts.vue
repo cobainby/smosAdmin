@@ -22,17 +22,13 @@
   margin: 10px;
 }
 </style>
-
-
-
-
 <script>
 var xData = (function() {
   var data = [];
   for (var i = 1; i < 13; i++) {
     data.push(i + "月份");
   }
-  return data;
+  return data; 
 })();
 
 export default {
