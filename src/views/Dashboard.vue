@@ -27,14 +27,12 @@
                <section class="panel">
 
                  <div class="panel-body">
-                  
                         <div class="summary">
                             <span>yearly expense</span>
                             <h3 class="red-txt">$ 45,600</h3>
                         </div>
                         <div id="income" class="chart-bar">
                           <img src="static/img/redincome.png">
-                          
 
                       </div>
                   </div>

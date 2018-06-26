@@ -38,7 +38,7 @@ router.beforeEach((to, from, next) => {
         store.dispatch('getNowRoutes', to);
 
         if (hasPermission(store.getters.roles, to.meta.role)) {
-          next()//
+          next()
 
           console.log("has userinfo")
         } else {
