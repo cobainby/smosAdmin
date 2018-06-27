@@ -38,7 +38,7 @@ function getNowRouter(asyncRouterMap, to) {
       if(to.path.indexOf(route.path) !==-1) {
           return true;
       }
-      else if (route.children && route.children.length) { //如果有孩子就遍历孩子
+      else if (route.children && route.children.length) { //如果有子项就遍历子项
         return  getNowRouter(route.children, to)
       }
   })
