@@ -1,5 +1,6 @@
 import { loginByEmail, logout, getInfo } from 'api/login';
 import Cookies from 'js-cookie';
+import { debug } from 'util';
 
 const user = {
   state: {
@@ -64,6 +65,7 @@ const user = {
   actions: {
     // 邮箱登录
     LoginByEmail({ commit }, userInfo) {
+      debugger
       const email = userInfo.email.trim();
       return new Promise((resolve, reject) => {
         loginByEmail(email, userInfo.password).then(response => {
@@ -78,8 +80,6 @@ const user = {
         });
       });
     },
-
-
     // 获取用户信息
     GetInfo({ commit, state }) {
       return new Promise((resolve, reject) => {

@@ -4,14 +4,14 @@ const userMap = {
   admin: {
     role: ['admin'],
     token: 'admin',
-    introduction: '我是超级管理员',
+    introduction: '我是管理员',
     name: 'Super Admin',
     uid: '001'
   },
   editor: {
     role: ['editor'],
     token: 'editor',
-    introduction: '我是编辑',
+    introduction: '我是监测人员',
     name: 'Normal Editor',
     uid: '002'
   },
@@ -23,7 +23,6 @@ const userMap = {
     uid: '003'
   }
 }
-
 export default {
   loginByEmail: config => {
     const { email } = JSON.parse(config.body);

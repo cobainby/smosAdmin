@@ -32,7 +32,6 @@
                         </div>
                         <div id="income" class="chart-bar">
                             <img src="static/img/redincome.png">
-
                         </div>
                     </div>
                 </section>
@@ -94,19 +93,21 @@
                         <div class="value">
                             22014
                         </div>
+                        <div class="newBegin">
+                          nans——newbegin
+                        </div>
                         <div class="title">
                             Total Revenue
                         </div>
                     </div>
                 </div>
-
                 </Col>
                 <Col span="12">
                 <div class="panel green">
                     <div class="symbol">
                         <Icon type="eye" size="50" color="white"></Icon>
 
-                    </div>
+                    </div> 
                     <div class="state-value">
                         <div class="value">
                             390

@@ -5,6 +5,7 @@ export function loginByEmail(email, password) {
     email,
     password
   };
+  debugger
   return fetch({
     url: '/login/loginbyemail',
     method: 'post',
